@@ -17,3 +17,7 @@ It should be out pretty soon.
 ## But wait, where should I edit the rubito code?
 
 I'll be happy to receive help on writing syntax highlighters/extensions to modern IDEs and/or text editors.
+
+## I demand more information!
+
+Please, use our [wiki](https://github.com/aolko/rubito/wiki).
