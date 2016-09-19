@@ -8,7 +8,7 @@
 
 ## What's rubito?
 
-Rubito is a programming language written in Python and inspired by Ruby, Crystal and Python. It's aimed for simplicity and intuitivity. Rubito programs can be executed from (both rubito itself and executable files(.rbt/.rbtx/.rt/.rtx)).
+Rubito is a programming language written in Python and inspired by Ruby, Crystal and Python. It's aimed for simplicity and intuitivity. Rubito programs can be executed from (both rubito itself and executable files(.rbt/.rbtx)).
 
 ## When it's out?
 
