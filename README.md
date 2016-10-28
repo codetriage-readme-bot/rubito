@@ -18,6 +18,8 @@ It should be out pretty soon.
 
 I'll be happy to receive help on writing syntax highlighters/extensions to modern IDEs and/or text editors.
 
+As of 28.10.2016 the sources are located right here, in this repository. Please keep in mind the instability of the language and language internals. Everything is subject to change.
+
 ## I demand more information!
 
 Please, use our [wiki](https://github.com/aolko/rubito/wiki).
