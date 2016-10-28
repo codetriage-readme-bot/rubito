@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+"""
+Rubito binary - "Rubiko"
+__author__      = Rubito team
+__version__     = 0.1
+"""
+
+from __future__ import unicode_literals
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+import rubito.parser
+import rubito.interpreter
+
+
+def main(debug=False):
+    """
+    Main function
+    :param debug: turn debug on/off
+    :return:
+    """
+    current_dir = os.path.dirname(__file__)
+    test_program = open(os.path.abspath(os.path.join(current_dir, '..', sys.argv[1]))).read()
+
+    parse_tree = rubito.parser.parse(test_program, debug)
+
+    result = rubito.interpreter.Interpreter(parse_tree).eval()
+
+    print(result)
+
+
+if __name__ == "__main__":
+    # In debug mode dot (graphviz) files for parser model
+    # and parse tree will be created for visualization.
+    # Checkout current folder for .dot files.
+    print(main(debug=False))
