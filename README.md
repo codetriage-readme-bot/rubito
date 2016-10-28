@@ -20,6 +20,8 @@ I'll be happy to receive help on writing syntax highlighters/extensions to moder
 
 As of 28.10.2016 the sources are located right here, in this repository. Please keep in mind the instability of the language and language internals. Everything is subject to change.
 
+### btw, Help wanted
+
 ## I demand more information!
 
 Please, use our [wiki](https://github.com/aolko/rubito/wiki).
